@@ -74,7 +74,7 @@ To achieve these requirements we need to do 2 things:
      PRODUCTS[2] has no low_stock key: True
    ```
    If you see `not done yet`, one of the methods still has its `raise` line.
-8. Refer to `tests/test_product_service.py` to understand how the functionality will be tested.
+8. Refer to `tests/test_product_service.py` to understand how the functionality will be tested. To run the tests, install pytest once (`pip install pytest`) and then run `pytest` from this folder. Read the name of any failing test: it tells you what to fix.
 9. We will be using an in-memory dictionary for this assignment. You do not need FastAPI, a server, or any package to install.
 10. Hints (all of these were in class):
     - **Copy a dictionary and add a key.** A `**` in front of a dictionary spreads it into a new dictionary:
