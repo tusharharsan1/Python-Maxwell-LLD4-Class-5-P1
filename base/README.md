@@ -74,7 +74,7 @@ To achieve these requirements we need to do 2 things:
      PRODUCTS[2] has no low_stock key: True
    ```
    If you see `not done yet`, one of the methods still has its `raise` line.
-8. Refer to `tests/test_product_service.py` to understand how the functionality will be tested. To run the tests, run `python -m unittest -v` from this folder (nothing to install). Read the name and the description of any failing test: they tell you what to fix.
+8. Your code will be checked with the test file `tests/test_product_service.py`. It checks the cases in the Requirements above, and the rules in instructions 3, 4 and 5. While you write your code, use `python try_it.py` (instruction 7) to check your work.
 9. We will be using an in-memory dictionary for this assignment. You do not need FastAPI, a server, or any package to install.
 10. Hints (all of these were in class):
     - **Copy a dictionary and add a key.** A `**` in front of a dictionary spreads it into a new dictionary:
